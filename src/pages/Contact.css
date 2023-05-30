@@ -1,0 +1,37 @@
+.Contact-img-center .bg {
+  background-image: url(1.jpg);
+  width: 100vw;
+  height: 57vh;
+}
+.Contact-img-center h1 {
+  /* text-align: center; */
+  display: flex;
+  width: 100vw;
+  height: 60%;
+  color: white;
+  font-size: 60px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 46;
+}
+.Contact-img {
+  width: 30vw;
+  margin: 30px;
+}
+.contact-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.Contact-h1 {
+  text-align: center;
+  color: rgb(4, 4, 146);
+}
+@media screen and (max-width: 600px) {
+  .contact-flex {
+    display: block;
+  }
+  .Contact-img {
+    width: 80vw;
+  }
+}
