@@ -24,9 +24,12 @@
     "styled-components": "^5.3.10"
   },
   "devDependencies": {
+    "@babel/core": "^7.22.1",
+    "@babel/preset-react": "^7.22.3",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^3.1.0",
+    "babel-loader": "^9.1.2",
     "vite": "^4.2.0"
   }
 }
